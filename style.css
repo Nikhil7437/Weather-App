@@ -1,0 +1,97 @@
+*
+{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main
+{
+    width: 100%;
+    height: 100vh;
+    /* background-color: blue; */
+    background: linear-gradient(rgb(121, 226, 252),rgb(249, 148, 249));
+color: whitesmoke;
+}
+.cover
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(12, 12, 12, 0.552);
+
+}
+
+.overlap
+{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+
+    /* -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px); */
+
+    -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+
+    
+    justify-content: center;
+    text-align: start;
+}
+.search
+{
+    width: 100%;
+    height: 60px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    
+}
+input{
+    width: 100%;
+    height: 40px;
+    border: 4px solid white;
+    background-color: transparent;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
+    
+
+}
+::placeholder{
+    color: whitesmoke;
+}
+.search i{
+
+font-size: 40px;
+color: whitesmoke;
+
+}
+i:hover{
+cursor: pointer;
+}
+img{
+    width: 50px;
+    height: 50px;
+    
+
+}
+
+h2{
+    font-family: gilroy;
+    font-weight: 400;
+    padding: 10px;
+}
+h1{
+    padding: 10px;
+    color: whitesmoke;
+}
+.humidity,.cloud,.wind
+{
+    padding: 5px;
+    font-size: 15px;
+}
