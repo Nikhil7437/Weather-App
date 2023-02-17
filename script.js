@@ -25,7 +25,7 @@ let weather = {
         console.log(speed)
         console.log(humidity)
         document.querySelector('.city').innerHTML = "Weather in : " + name;
-        document.querySelector('.temp').innerHTML = temp + "°C";
+        document.querySelector('.temp').innerHTML = (temp-273.15).toFixed(2) + "°C";
         document.querySelector('.icon').src = `http://openweathermap.org/img/wn/${icon}.png`
         document.querySelector('.cloud').innerHTML = description;
         document.querySelector('.humidity').innerHTML = 'Humidity :' + humidity + '%';
